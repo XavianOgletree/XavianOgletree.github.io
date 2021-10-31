@@ -1,0 +1,55 @@
+body {
+    color:rgb(39, 34, 34);
+    font: 14px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(32, 96, 157);
+}
+
+a:visited {
+    color:rgb(43, 62, 102)
+}
+
+a:hover {
+    color:rgb(87, 176, 218);
+}
+
+h1 {
+    font-size: 28px;
+}
+
+body, .wrapper, html, header, section {
+    height: 100%;
+}
+
+header {
+    float: left;
+    width: 300px;
+    position: fixed;
+    text-align: center;
+}
+
+#pfp {
+    max-width: 256px;
+    height: auto;
+    
+}
+
+
+section {
+    float: right;
+    width: 560px;
+}
+
+.wrapper {
+    width: 920px;
+    margin: 0 auto;
+    height: 100%;
+}
+
+iframe {
+    width: 90%;
+}
